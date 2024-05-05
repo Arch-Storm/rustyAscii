@@ -14,21 +14,7 @@ Once downloaded, you can run the program using the following command:
 ```
 
 In this example, rustyAscii.exe is the downloaded binary and gif.txt is the ASCII art file you want to display. Please replace .\gif.txt with the path to your ASCII art file.
-
-This method provides a faster startup time compared to building and running the project from source.
-
-## Usage
-To use this program, you need to pass the ASCII art file as a command-line argument. The usage is as follows:
-```sh
-cargo run <filename>
-```
-
-Where <filename> is the path to the ASCII art file you want to display.
-
-## Dependencies
-This project only uses one non std crate:
-
-**crossterm**: for cursor manipulation in the console across platforms.
+I use this method to display animated ascii art inside alpha-nvim on windows.
 
 ## Building and Running
 To build and run the project, you need to have Rust installed. You can then use the following commands:
