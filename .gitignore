@@ -1,0 +1,38 @@
+# Compiled files
+/target/
+
+# Dependency directories
+Cargo.lock
+Cargo.toml.orig
+Cargo.toml.bkp
+
+# Build artifacts
+*.rs.bk
+*.rlib
+*.rmeta
+*.rmeta.bk
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.dSYM/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Generated documentation
+/doc/
+/target/doc/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.cache
+*.DS_Store
